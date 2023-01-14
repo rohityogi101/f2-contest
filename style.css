@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    margin: 96px 58px;
+}
+
+h2{
+    margin-bottom: 40px;
+}
+
+input{
+    background: transparent;
+    color: white;
+    padding: 5px;
+    
+}
+
+
+button{
+    width: 139px;
+    height: 33px;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+}
+#success{
+    color: green;
+    margin-bottom: 10px;
+}
+#error{
+    color: red;
+    margin-bottom: 10px;
+}
+tr{
+    border: 2px solid white;
+
+}
+
+td{
+    /* border: 2px solid red; */
+    padding: 10px 20px;
+    gap: 50px;
+}
